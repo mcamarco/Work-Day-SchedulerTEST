@@ -22,7 +22,8 @@ textarea {
   
 }
 textarea:hover { 
-background-color : black;
+background-color: black;
+opacity: 80%;
 
 }
 
@@ -35,14 +36,16 @@ background-color : black;
 }
 
 .row {
-  border: 3px solid darkslategrey;
+  border: 3px solid white;
   
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border: 1px solid #000000;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  font-size: 30px
 }
 
 .past {
@@ -63,23 +66,23 @@ background-color : black;
 }
 
 .saveBtn {
-  border-radius: 10%;
-   color: white;
+  border: 5px solid black;
+   color: black;
    font-size: 30px;
+   background-color: white;
 }
 
 .saveBtn:hover {
-  font-size: 50px;
-  color: black;
-  /* transition: all 0.3s ease-in-out; */
+  font-size: 60px;
 }
 
 
 /* set flex & padding around calendar application */
 .container-lg.px-5{
   padding: 50px ;
-  border: 10px solid black;
+  
   border-radius: 5%;
+  background-color: #3e4444;
 }
 
 /* text area */
