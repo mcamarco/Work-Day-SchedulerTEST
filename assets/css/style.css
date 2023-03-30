@@ -1,0 +1,86 @@
+header{
+  background-color: #3e4444;
+  color:white;
+}
+
+body {
+  font-family: 'Georgia', sans-serif;
+  font-size: 16px;
+  background-color:white;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: white;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  border-left: 1px solid black;
+  padding: 10px;
+  
+}
+textarea:hover { 
+background-color : black;
+
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 10px;
+}
+
+.row {
+  border: 3px solid darkslategrey;
+  
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.past {
+  background-color: #c94c4c ;
+   color: white;
+  
+}
+
+.present {
+  color: white;
+  background-color: #b2b2b2;
+  
+}
+
+.future {
+  background-color:#A7C7E7 ;
+  color: white;
+}
+
+.saveBtn {
+  border-radius: 10%;
+   color: white;
+   font-size: 30px;
+}
+
+.saveBtn:hover {
+  font-size: 50px;
+  color: black;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+
+/* set flex & padding around calendar application */
+.container-lg.px-5{
+  padding: 50px ;
+  border: 10px solid black;
+  border-radius: 5%;
+}
+
+/* text area */
+
